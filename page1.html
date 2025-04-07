@@ -33,17 +33,16 @@
 <body>
   
 <section data-bs-version="5.1" class="menu menu1 cid-sFGMsvHDIa" once="menu" id="menu1-1">
-    
-
     <nav class="navbar navbar-dropdown navbar-expand-lg">
         <div class="container-fluid">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    
-                        <a href="index.html#header1-0"><img src="assets/images/487981563-643471898479929-824543495032179314-n.jpg-96x96.jpg" alt="site" style="height: 4.9rem;"></a>
-                    
+                    <!-- Replacing text overlay with image -->
+                    <a href="index.html#header1-0">
+                        <img src="https://xperia.pt/upscaled_caranguejeira.jpg" alt="Caranguejeira Image" class="navbar-image">
+                    </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-white text-primary display-5" href="index.html#header1-0">Festeiros 2005</a></span>
+                <!-- Removed the original text overlay -->
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
@@ -54,14 +53,29 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white text-primary display-7" href="page1.html#gallery4-4">Dia 1</a>
-                    </li><li class="nav-item"><a class="nav-link link text-white text-primary display-7" href="page2.html#gallery4-t">Dia 2</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-7" href="page3.html#gallery4-14">Dia 3</a></li></ul>
-                
-                
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <li class="nav-item"><a class="nav-link link text-white text-primary display-7" href="page1.html#gallery4-4">Dia 1</a></li>
+                    <li class="nav-item"><a class="nav-link link text-white text-primary display-7" href="page2.html#gallery4-t">Dia 2</a></li>
+                    <li class="nav-item"><a class="nav-link link text-white text-primary display-7" href="page3.html#gallery4-14">Dia 3</a></li>
+                </ul>
             </div>
         </div>
     </nav>
 </section>
+
+<!-- Adding custom CSS -->
+<style>
+    .navbar-logo img.navbar-image {
+        width: 100%; /* Makes the image responsive */
+        max-width: 350px; /* Maximum width for the image */
+        height: auto; /* Maintain aspect ratio */
+        opacity: 0.7; /* Slight transparency */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
 
 <section data-bs-version="5.1" class="header1 cid-uHGnGR4nNK" data-bg-video="https://xperia.pt/background1.mp4" id="header1-2">
 
